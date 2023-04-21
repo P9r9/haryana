@@ -9,7 +9,7 @@
     height: 90vh;
     width: 100%;
     background-image: url(images/20230420082447_[fpdl.in]_handsome-man-standing-street-holding-laptop_1303-31614.jpg);
-    /* background-position: center; */
+   
     background-size: cover;
 }
 .main-text{
@@ -169,13 +169,17 @@ align-items: center;
         grid-template-columns:auto ;
         height: auto;
     }
-
+.main-container-1{
+    display: flex;
+    background-position: inherit;
+    background-size: cover;
+    width: 100%;
     
-    .carousel-item{
-    width: 90%;
-  
-   
 }
+    
+
+   
+
 
   
 
@@ -256,6 +260,7 @@ div.scrollmenu {
     width: 100%;
     height: 60vh;
     display: flex;
+    padding-top: 30px;
     justify-content: center;
     background-color: #e5dede;
     margin-top: 20px;
@@ -263,7 +268,7 @@ div.scrollmenu {
 .aboutus{
     width:30%;
     height: 50vh;
-    margin: 20px;
+ 
     padding: 20px;
     
 }
@@ -271,7 +276,7 @@ div.scrollmenu {
     width: 30%;
     height: 50vh;
     padding: 20px;
-    margin: 20px;
+  
     
 }
 .icons-1{
@@ -283,7 +288,7 @@ div.scrollmenu {
 .map{
     width: 30%;
     height: 50vh;
-    margin: 20px;
+  
    
 }
 
@@ -301,6 +306,7 @@ div.scrollmenu {
     }
     .map{
         width: 90%;
+        margin-left: 20px;
     }
     .nav-link{
         text-align: center;
@@ -320,13 +326,15 @@ div.scrollmenu {
   }
   .shop-1{
     width: 50%;
-    height: 100vh;
-
-  
+    height: 90vh;
+color: #f1f1f1;
+    /* background-color: rgb(180, 167, 151); */
    text-align: center;
-   /* background-size: cover;
-    background-image:  url(https://img.freepik.com/free-photo/shop-clothing-clothes-shop-hanger-modern-shop-boutique_1150-8886.jpg?size=626&ext=jpg&uid=R81520808&ga=GA1.2.506661075.1677303025&semt=robertav1_2_sidr);
-    */
+   background-repeat: no-repeat;
+   
+    background-size: cover;
+    background-image:  url(https://img.freepik.com/free-photo/thrift-shop_53876-65276.jpg?size=626&ext=jpg&uid=R81520808&ga=GA1.2.506661075.1677303025&semt=robertav1_2_sidr);
+    
     border-top-right-radius:50% ;
    
   }
@@ -334,12 +342,14 @@ div.scrollmenu {
 
   .shop-2{
     width: 50%;
-     height: 100vh;
-    /*background-image:  url(https://img.freepik.com/free-photo/beautiful-second-hand-market_23-2149353670.jpg?size=626&ext=jpg&uid=R81520808&ga=GA1.2.506661075.1677303025&semt=robertav1_2_sidr);
+     height: 90vh;
+    background-image:  url(https://img.freepik.com/free-photo/young-woman-store-chooses-wallpaper-her-home-concept-repair-shopping_169016-4586.jpg?size=626&ext=jpg&uid=R81520808&ga=GA1.2.506661075.1677303025&semt=robertav1_2_sidr);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; */
+    background-size: cover; 
+    color: white;
    text-align: center;
+   background-color: rgb(180, 167, 151);
  
     border-top-left-radius:50% ;
   
@@ -357,6 +367,7 @@ div.scrollmenu {
   .one{
     display: flex;
     width: 50%;
+ 
   
 
   
@@ -364,6 +375,7 @@ div.scrollmenu {
   .two{
     display: flex;
     width: 50%;
+ 
    
 
    
@@ -426,7 +438,7 @@ div.scrollmenu {
      .container-7{
         display: flex;
         flex-direction: column;
-        height: 100%;
+        height: auto;
         width: 100%;
        
      }
